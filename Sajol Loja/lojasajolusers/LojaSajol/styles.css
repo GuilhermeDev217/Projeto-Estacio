@@ -1,0 +1,415 @@
+/* Define a aparência geral do corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+    background-color: #ffffff; /* Cor de fundo branca */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Alternativa de fonte */
+}
+
+/* Estiliza o cabeçalho da página */
+header {
+    background-color: #91c3f8; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto */
+    padding: 10px 0; /* Espaçamento vertical */
+}
+
+/* Remove marcadores da lista de navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores */
+    padding: 0; /* Remove o padding padrão */
+}
+
+/* Estiliza os itens da lista de navegação */
+nav ul li {
+    display: inline; /* Exibe os itens em linha */
+    margin-right: 5px; /* Espaçamento à direita */
+}
+
+/* Estiliza os links de navegação */
+nav a {
+    color: rgb(0, 0, 0); /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte dos links */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: 600; /* Peso da fonte */
+}
+.carousel-item {
+    height: 600px;
+}
+.slider{
+    width: 1920px;
+    height: 780px;
+}
+/* Estiliza o rodapé */
+footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento vertical */
+    background-color: #91c3f8; /* Cor de fundo do rodapé */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    margin-top: auto;
+}
+
+/* Estiliza a classe logorl (logo) */
+.logorl {
+    width: 10%; /* Largura da imagem do logo */
+    margin: 0 auto; /* Centraliza a imagem */
+    display: block; /* Exibe como bloco */
+}
+
+/* Estiliza o logo */
+.logo {
+    margin: 5px 0 0 80px; /* Margens superiores e laterais */
+    width: 100px; /* Largura do logo */
+    height: 30px; /* Altura do logo */
+}
+
+/* Estiliza o campo de login */
+#log {
+    margin-left: 25px; /* Margem à esquerda */
+    background-color: #ffffff; /* Cor de fundo */
+    border-style: solid; /* Estilo da borda */
+    border-radius: 10px; /* Bordas arredondadas */
+    border: none;
+    font-weight: 600; /* Peso da fonte */
+    color: black;
+}
+#log:hover{
+    opacity: 50%;
+}
+#log:active{
+    opacity: 30%;
+}
+/* Estiliza a seção de produtos */
+.produtos {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; /* Usa flexbox para layout */
+    flex-wrap: wrap; /* Permite que os itens quebrem em várias linhas */
+    justify-content: space-around; /* Distribui espaço entre os itens */
+}
+
+/* Estiliza cada produto individualmente */
+.produto {
+    display: flex; /* Usa flexbox para layout */
+    flex-direction: column; /* Coloca os elementos em coluna */
+    justify-content: space-between; /* Espaço igual entre os itens */
+    background-color: #f8f9fa; /* Cor de fundo do produto */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra do produto */
+    margin: 10px; /* Margem ao redor do produto */
+    padding: 15px; /* Espaçamento interno */
+    width: calc(35% - 40px); /* Largura, considerando margens */
+    text-align: center; /* Centraliza o texto */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte do produto */
+}
+
+/* Estiliza os produtos da tela inicial */
+.produtop {
+    display: flex; /* Usa flexbox para layout */
+    flex-direction: column; /* Coloca os elementos em coluna */
+    justify-content: space-between; /* Espaço igual entre os itens */
+    background-color: #f8f9fa; /* Cor de fundo do produto */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra do produto */
+    margin: 10px; /* Margem ao redor do produto */
+    padding: 15px; /* Espaçamento interno */
+    width: calc(40% - 40px); /* Largura, considerando margens */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estiliza os títulos dos produtos */
+h3 {
+    margin-top: 10px; /* Margem superior */
+}
+
+/* Estiliza as imagens dos produtos */
+.produto img {
+    width: 100%; /* Imagem ocupa toda a largura do contêiner */
+    height: 250px; /* Altura fixa da imagem */
+    object-fit: cover; /* Corta a imagem mantendo a proporção */
+    border-radius: 5px; /* Bordas arredondadas da imagem */
+}
+
+/* Estiliza os botões */
+button {
+    background-color: #007bff; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove borda padrão */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+/* Estiliza formulários */
+form {
+    padding: 250px 0; /* Espaçamento vertical */
+}
+
+/* Estiliza o rodapé */
+.foot {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte da classe foot */
+    font-weight: 600; /* Peso da fonte */
+    margin-top: 10px; /* Margem superior */
+}
+
+/* Estiliza os links/botoes da tela inicial que direciona para categoria */
+.direct {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte dos links */
+    font-size: 16px; /* Tamanho da fonte dos links */
+    font-weight: 600; /* Peso da fonte */
+    background-color: #007bff;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 30px;
+}
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+.sobrebo{
+    margin: 0;
+    padding: 0;
+}
+.student {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.student h2 {
+    color: #008cff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.student p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+#sobren{
+    text-align: center;
+}
+.navsob{
+    background-color: #91c3f8;
+    padding: 16px;
+}
+.navlogo{
+    width: 130px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+/* Estilo básico para o pop-up */
+/* Estilo básico para o pop-up */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente */
+    display: none; /* Começa escondido */
+    z-index: 1000; /* Garante que o pop-up fique acima de outros conteúdos */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+/* Conteúdo do pop-up */
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;  /* Ajuste a largura conforme necessário */
+    text-align: center;
+    position: relative;
+}
+
+/* Fechar o pop-up */
+.fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Para a imagem do produto */
+#produto-imagem {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilo do botão de adicionar ao carrinho */
+#adicionar-carrinho-popup {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#adicionar-carrinho-popup:hover {
+    background-color: #218838;
+}
+body {
+    background-color: white; /* Fundo branco */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); /* Máscara leve preta */
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+#log:hover {
+    background-color: #0056b3; /* Cor do fundo no hover */
+}
+
+/* Estilo do ícone de usuário */
+.icone-usuario {
+    width: 32px; /* Tamanho do ícone */
+    height: 32px;
+    border-radius: 50%; /* Deixa o ícone circular */
+    cursor: pointer; /* Cursor de botão ao passar o mouse */
+    background-color: white; /* Fundo do ícone */
+    padding: 4px; /* Espaçamento interno para o ícone */
+    margin-top: 5px;
+    margin-left: 15px;;
+}
+
+.icone-usuario:hover {
+    border-color: #0056b3; /* Cor da borda no hover */
+}
+/* Carrinho Lateral */
+/* Estilo geral do carrinho */
+.carrinho {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.carrinho h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#produtos-carrinho {
+    width: 100%;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.produto-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.produto-carrinho img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.produto-carrinho span {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 14px;
+}
+
+.produto-carrinho button.remover-produto {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.produto-carrinho button.remover-produto:hover {
+    background-color: #cc0000;
+}
+
+.produto-carrinho .quantidade {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* Estilo do botão "Finalizar Pedido" */
+.btn-finalizar {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-finalizar:hover {
+    background-color: #218838;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .carrinho {
+        width: 250px;
+        padding: 10px;
+    }
+
+    .produto-carrinho img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .produto-carrinho span {
+        font-size: 12px;
+    }
+
+    .btn-finalizar {
+        font-size: 14px;
+    }
+}
+.pesicon{
+    width: 150px;
+    height: 150px;
+}
