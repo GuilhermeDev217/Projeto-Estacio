@@ -97,7 +97,7 @@ session_start(); // Inicia a sessão para verificar se o usuário está logado
             <?php endforeach; ?>
         <?php endif; ?>
     </div>
-    <a href="finalizar_pedido.php" class="btn-finalizar">Finalizar Pedido</a>
+    <button id="finalizar-pedido" onclick="window.location.href='confirmar_pedido.php'">Finalizar Pedido</button>
 </div>
         </section>
     </main>
